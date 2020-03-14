@@ -1,4 +1,4 @@
-﻿namespace Requestrr.WebApi.Requestrr.DownloadClients
+﻿namespace Requestrr.WebApi.Requestrr.DownloadClients.Ombi
 {
     public class OmbiSettingsProvider
     {

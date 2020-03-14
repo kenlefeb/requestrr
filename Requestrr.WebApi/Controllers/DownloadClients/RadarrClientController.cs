@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Requestrr.WebApi.Config;
+using Requestrr.WebApi.config;
 using Requestrr.WebApi.Requestrr.DownloadClients;
+using Requestrr.WebApi.Requestrr.DownloadClients.Radarr;
 
-namespace Requestrr.WebApi.Controllers
+namespace Requestrr.WebApi.Controllers.DownloadClients
 {
     public class TestRadarrSettingsModel
     {
@@ -199,9 +200,9 @@ namespace Requestrr.WebApi.Controllers
             return Ok(new { ok = true });
         }
 
-        private static Requestrr.DownloadClients.RadarrSettings ConvertToRadarrSettings(TestRadarrSettingsModel model)
+        private static Requestrr.DownloadClients.Radarr.RadarrSettings ConvertToRadarrSettings(TestRadarrSettingsModel model)
         {
-            return new Requestrr.DownloadClients.RadarrSettings
+            return new Requestrr.DownloadClients.Radarr.RadarrSettings
             {
                 ApiKey = model.ApiKey.Trim(),
                 Hostname = model.Hostname.Trim(),

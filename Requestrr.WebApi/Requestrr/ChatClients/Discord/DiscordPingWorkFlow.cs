@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 
-namespace Requestrr.WebApi.Requestrr.ChatClients
+namespace Requestrr.WebApi.Requestrr.ChatClients.Discord
 {
     public class DiscordPingWorkFlow : RequestrrModuleBase<SocketCommandContext>
     {

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Requestrr.WebApi.Requestrr.Notifications;
 
-namespace Requestrr.WebApi.Requestrr.TvShows
+namespace Requestrr.WebApi.Requestrr.TvShows.SeasonsRequestWorkflows
 {
     public class NormalTvSeasonRequestingWorkflow
     {

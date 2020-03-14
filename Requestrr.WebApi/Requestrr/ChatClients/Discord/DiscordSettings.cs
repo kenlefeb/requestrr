@@ -1,8 +1,7 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
-namespace Requestrr.WebApi.Requestrr.ChatClients
+namespace Requestrr.WebApi.Requestrr.ChatClients.Discord
 {
     public class DiscordSettings
     {

@@ -3,7 +3,7 @@ using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Requestrr.WebApi
+namespace Requestrr.WebApi.Requestrr
 {
     public static class SettingsFile
     {

@@ -5,9 +5,9 @@ using Discord.WebSocket;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Requestrr.WebApi.Config;
+using Requestrr.WebApi.config;
 
-namespace Requestrr.WebApi.Controllers
+namespace Requestrr.WebApi.Controllers.ChatClients
 {
     [ApiController]
     [Authorize]

@@ -1,4 +1,6 @@
-namespace Requestrr.WebApi.Controllers
+using Requestrr.WebApi.Requestrr;
+
+namespace Requestrr.WebApi.Controllers.Authentication
 {
     public static class AuthenticationSettingsRepository
     {

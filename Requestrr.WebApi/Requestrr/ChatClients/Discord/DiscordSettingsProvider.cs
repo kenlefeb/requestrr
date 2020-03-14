@@ -2,7 +2,7 @@
 using System.Linq;
 using Requestrr.WebApi.Requestrr.DownloadClients;
 
-namespace Requestrr.WebApi.Requestrr.ChatClients
+namespace Requestrr.WebApi.Requestrr.ChatClients.Discord
 {
     public class DiscordSettingsProvider
     {

@@ -9,7 +9,7 @@ using Discord.WebSocket;
 using Requestrr.WebApi.Requestrr.Movies;
 using Requestrr.WebApi.Requestrr.Notifications;
 
-namespace Requestrr.WebApi.Requestrr.ChatClients
+namespace Requestrr.WebApi.Requestrr.ChatClients.Discord
 {
     public class DiscordMovieRequestingWorkFlow : RequestrrModuleBase<SocketCommandContext>, IMovieUserInterface
     {

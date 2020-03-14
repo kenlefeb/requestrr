@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Discord.WebSocket;
 using Requestrr.WebApi.Requestrr.ChatClients;
+using Requestrr.WebApi.Requestrr.ChatClients.Discord;
 using Requestrr.WebApi.Requestrr.Movies;
 
 namespace Requestrr.WebApi.Requestrr.Notifications

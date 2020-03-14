@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Requestrr.WebApi.Requestrr.Notifications;
 
-namespace Requestrr.WebApi
+namespace Requestrr.WebApi.Requestrr
 {
     public static class NotificationsFile
     {

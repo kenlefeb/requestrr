@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using Requestrr.WebApi.Requestrr.Movies;
 using Requestrr.WebApi.Requestrr.TvShows;
 
-namespace Requestrr.WebApi.Requestrr.DownloadClients
+namespace Requestrr.WebApi.Requestrr.DownloadClients.Ombi
 {
     public class Ombi : IMovieRequester, IMovieSearcher, ITvShowSearcher, ITvShowRequester
     {

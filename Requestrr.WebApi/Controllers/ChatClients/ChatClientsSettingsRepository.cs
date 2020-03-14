@@ -1,6 +1,7 @@
-﻿using Requestrr.WebApi.Config;
+﻿using Requestrr.WebApi.config;
+using Requestrr.WebApi.Requestrr;
 
-namespace Requestrr.WebApi.Controllers
+namespace Requestrr.WebApi.Controllers.ChatClients
 {
     public static class ChatClientsSettingsRepository
     {

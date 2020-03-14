@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Requestrr.WebApi.Config;
+using Requestrr.WebApi.config;
 using Requestrr.WebApi.Requestrr.DownloadClients;
+using Requestrr.WebApi.Requestrr.DownloadClients.Sonarr;
 
-namespace Requestrr.WebApi.Controllers
+namespace Requestrr.WebApi.Controllers.DownloadClients
 {
     public class TestSonarrSettingsModel
     {
@@ -227,9 +228,9 @@ namespace Requestrr.WebApi.Controllers
             return Ok(new { ok = true });
         }
 
-        private static Requestrr.DownloadClients.SonarrSettings ConvertToSonarrSettings(TestSonarrSettingsModel model)
+        private static Requestrr.DownloadClients.Sonarr.SonarrSettings ConvertToSonarrSettings(TestSonarrSettingsModel model)
         {
-            return new Requestrr.DownloadClients.SonarrSettings
+            return new Requestrr.DownloadClients.Sonarr.SonarrSettings
             {
                 ApiKey = model.ApiKey.Trim(),
                 Hostname = model.Hostname.Trim(),

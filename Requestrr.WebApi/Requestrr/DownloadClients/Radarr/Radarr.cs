@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -9,7 +8,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Requestrr.WebApi.Requestrr.Movies;
 
-namespace Requestrr.WebApi.Requestrr.DownloadClients
+namespace Requestrr.WebApi.Requestrr.DownloadClients.Radarr
 {
     public class Radarr : IMovieRequester, IMovieSearcher
     {

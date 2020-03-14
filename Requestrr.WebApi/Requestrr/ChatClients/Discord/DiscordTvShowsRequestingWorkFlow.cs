@@ -9,7 +9,7 @@ using Discord.WebSocket;
 using Requestrr.WebApi.Requestrr.Notifications;
 using Requestrr.WebApi.Requestrr.TvShows;
 
-namespace Requestrr.WebApi.Requestrr.ChatClients
+namespace Requestrr.WebApi.Requestrr.ChatClients.Discord
 {
     public class DiscordTvShowsRequestingWorkFlow : RequestrrModuleBase<SocketCommandContext>, ITvShowUserInterface
     {

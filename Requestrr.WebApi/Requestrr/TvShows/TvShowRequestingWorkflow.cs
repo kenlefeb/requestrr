@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Requestrr.WebApi.Requestrr.Notifications;
+using Requestrr.WebApi.Requestrr.TvShows.SeasonsRequestWorkflows;
 
 namespace Requestrr.WebApi.Requestrr.TvShows
 {

@@ -8,13 +8,17 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
-using Requestrr.WebApi.Config;
 using Requestrr.WebApi.Requestrr.Movies;
 using Requestrr.WebApi.Requestrr.TvShows;
 using Requestrr.WebApi.Requestrr.DownloadClients;
 using Requestrr.WebApi.Requestrr.ChatClients;
 using Requestrr.WebApi.Requestrr;
 using System;
+using Requestrr.WebApi.config;
+using Requestrr.WebApi.Requestrr.ChatClients.Discord;
+using Requestrr.WebApi.Requestrr.DownloadClients.Ombi;
+using Requestrr.WebApi.Requestrr.DownloadClients.Radarr;
+using Requestrr.WebApi.Requestrr.DownloadClients.Sonarr;
 
 namespace Requestrr.WebApi
 {

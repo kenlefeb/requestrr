@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Requestrr.WebApi.Requestrr.TvShows;
 
-namespace Requestrr.WebApi.Requestrr.DownloadClients
+namespace Requestrr.WebApi.Requestrr.DownloadClients.Sonarr
 {
     public class Sonarr : ITvShowSearcher, ITvShowRequester
     {

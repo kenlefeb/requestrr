@@ -8,3 +8,4 @@ Requestrr.WebApi/config/settings.json
 .idea
 /.ionide
 /.vs/Requestrr.WebApi
+*.DotSettings
