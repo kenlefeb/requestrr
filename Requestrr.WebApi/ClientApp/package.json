@@ -6,7 +6,7 @@
   "author": "Darkalfx",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_PATH=./src react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
